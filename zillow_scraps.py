@@ -213,5 +213,5 @@ if __name__=="__main__":
     argparser.add_argument('sort', nargs='?', help = sortorder_help, default ='Homes For You')
     argparser.add_argument('codes', metavar='N', type=int, nargs='+', help='List of postal codes')
     args = argparser.parse_args()
-    z = Zillow(args.sort, args.codes, "X1-ZWz18uxxby8tfv_a9fju")
+    z = Zillow(args.sort, args.codes, "REPLACE_WITH_YOUR_ZILLOW_API_KEY")
     z.run()
