@@ -1,6 +1,6 @@
 # zillow_scraps
 
-## Requirements:
+## Requirements
 
 1. In order to perform zestimate API
 https://github.com/seme0021/python-zillow
